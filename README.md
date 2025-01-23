@@ -36,6 +36,9 @@ You can customize the style of the reports by modifying the XSLT file located in
 ```
 account-payables-aging.xslt
 account-receivables-aging.xslt
+audit-changes.xslt
+audit-filtered.xslt
+audit.xslt
 balance-sheet.xslt
 breakeven-analysis.xslt
 budget-vs-actual.xslt
@@ -56,6 +59,14 @@ trial-balance.xslt
 ### Account Receivables Aging
 
 ![account-receivables-aging.png](https://github.com/pingleware/bestbooks-reports/blob/master/image/README/account-receivables-aging.png)
+
+## Audit
+
+![account-trail-report.png](https://github.com/pingleware/bestbooks-reports/blob/master/image/README/audit-trail-report.png)
+
+## Audit Changes
+
+## Audit Filtered
 
 ### Balance Sheet
 
@@ -101,3 +112,9 @@ trial-balance.xslt
 ### Trial Balance
 
 ![trial-balance](https://github.com/pingleware/bestbooks-reports/blob/master/image/README/trial-balance.png)
+
+# Standalone XSLT Processing
+Requires a generated XML wuth the xsltproc
+
+    xsltproc audit.xslt audit.xml > report.html
+
