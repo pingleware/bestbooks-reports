@@ -70,6 +70,8 @@ trial-balance.xslt
 
 ## Audit Filtered
 
+![account-filtered-report.png](https://github.com/pingleware/bestbooks-reports/blob/master/image/README/audit-filtered-report.png)
+
 ### Balance Sheet
 
 ![balance-sheet.png](https://github.com/pingleware/bestbooks-reports/blob/master/image/README/balance-sheet.png)
