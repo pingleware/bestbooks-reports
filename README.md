@@ -8,7 +8,7 @@ Hence the report design will go back to basics,
     2. display the XML using XSLT with CSS which can be printed or
        save as a PDF or DOCX (see https://www.geeksforgeeks.org/displaying-xml-using-xslt/)
 
-During initialization (invoking the init() function)), will copy the xslt template files to the user's home directory in the bestbooks system directory.
+During initialization (invoking the init() function), will copy the xslt template files to the user's home directory in the bestbooks system directory.
 
 The js2xmlparser package is used to convert an object to xml, while the xslt-processor package will transform the XML data and XSLT template to HTML format.
 
@@ -120,3 +120,5 @@ Requires a generated XML wuth the xsltproc
 
     xsltproc audit.xslt audit.xml > report.html
 
+# Development Updates
+The dependency of @pingleware/bestbooks-core has been updated to the new monorepo at [](https://github.com/pingleware/bestbooks/tree/main/packages/bestbooks-core) while the former repository has been archived at [](https://github.com/pingleware/bestbooks-core). Eventually this repository will be merged into monorepo at [](https://github.com/pingleware/bestbooks/tree/main/packages/bestbooks-reports)
