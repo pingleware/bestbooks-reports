@@ -66,6 +66,8 @@ trial-balance.xslt
 
 ## Audit Changes
 
+![account-changes-report.png](https://github.com/pingleware/bestbooks-reports/blob/master/image/README/audit-changes-report.png)
+
 ## Audit Filtered
 
 ### Balance Sheet
