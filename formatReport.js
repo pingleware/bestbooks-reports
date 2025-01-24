@@ -13,6 +13,9 @@ const {
 const report_list = {
     accountPayablesAging: "account-payables-aging.xslt",
     accountReceivablesAging: "account-receivables-aging.xslt",
+    audit: "audit.xslt",
+    auditChanges: "audit-changes.xslt",
+    auditFiltered: "audit-filtered.xslt",
     balanceSheet: "balance-sheet.xslt",
     breakevenAnalysis: "breakeven-analysis.xslt",
     budgetVsActual: "budget-vs-actual.xslt",

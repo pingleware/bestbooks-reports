@@ -12,7 +12,10 @@ function init() {
     
     const xslt_list = [
         "account-payables-aging.xslt",
-        "account-receivables-aging.xslt",    
+        "account-receivables-aging.xslt", 
+        "audit-changes.xslt",   
+        "audit-filtered.xslt",   
+        "audit.xslt",   
         "balance-sheet.xslt",
         "breakeven-analysis.xslt",
         "budget-vs-actual.xslt",
@@ -66,6 +69,9 @@ function copy(src,dest) {
 
 const AccountPayablesAging = require('./account-payables-aging');
 const AccountsReceivablesAging = require('./account-receivables-aging');
+const AuditTrail = require('./audit');
+const AuditTrailChanges = require('./audit-changes');
+const AuditTrailFiltered = require('./audit-filtered');
 const BalanceSheet = require('./balance-sheet');
 const BreakevenAnalysis = require('./breakeven-analysis');
 const BudgetVsActual = require('./budget-vs-actual');
@@ -93,6 +99,9 @@ module.exports = {
     copy,
     AccountPayablesAging,
     AccountsReceivablesAging,
+    AuditTrail,
+    AuditTrailChanges,
+    AuditTrailFiltered,
     BalanceSheet,
     BreakevenAnalysis,
     BudgetVsActual,
